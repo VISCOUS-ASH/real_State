@@ -1,0 +1,28 @@
+.f-container{
+    justify-content: space-between;
+    background: rgba(130,140,150,0.145);
+    max-width: 100%;
+}
+.f-left{
+    gap: 1rem;
+}
+.f-menu{
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+    font-weight: 500;
+}
+@media(max-width:768px)
+{
+    .anchor{
+        visibility: hidden;
+    }
+    .f-container{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .f-container>div{
+        align-items: center!important;
+        text-align: center;
+    }
+}
